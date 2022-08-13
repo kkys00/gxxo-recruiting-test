@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+.nav{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .nav .logo{
+    font-weight: 600;
+    font-size: 25px;
+    color: #ec1468;
+  }
+  
+  .nav .nav_but a{
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+  }
+  
+  .intro{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+    /* margin-left: 15vw; */
+    line-height: 54px;
+    font-size: 35px;
+    color: #ec1468;
+    font-weight: 600;
+  }
+  
+  .table {
+    /* position: absolute; */
+    width:900px;
+    margin-top: 50px !important;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .tr {
+    display: flex;
+  }
+  .title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 62%;
+    color: #ec1468;
+    width: 250px;
+    text-align: center;
+    border-top: 1px solid #e4e4e4;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 30px;
+    word-break: keep-all;
+  
+  }
+  .content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 150%;
+  
+    width: 540px;
+    text-align: justify;
+    border-top: 1px solid #e4e4e4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    /* padding-left: 30px; */
+    word-break: keep-all;
+  
+    color: #191919;
+  }
+  
+  
+  
+  .teamIntroduce {
+    margin-top: 90px;
+    /* display: block; */
+    /* margin-left: 13%; */
+    /* margin-right: 13%; */
+    /* display: inline-flex; */
+    /* align-items: center; */
+    text-align: center;
+  }
+  
+  .teamContent {
+    width: 320px;
+    height: 565px;
+    left: 300px;
+    display: inline-table;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* margin-right: 45px; */
+  
+    background: #ffffff;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.25);
+  }
+  
+  
+  .team-name {
+    position: absolute;
+    width: 250px;
+    height: 33px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: #ec1468;
+  }
+  
+  .teamlist {
+    display: flex;
+    align-items: center;
+  }
+  
+  .number {
+    margin-left: 40px;
+  }
+  
+  .team-explanation {
+    font-style: normal;   
+    font-weight: 600px;
+    font-size: 18px;
+    font-family: 'Noto Sans KR', sans-serif;
+  
+    line-height: 40px;
+    margin-left: 10px;
+    color: #000000;
+  }
+  
+  .team-explanation_ {
+    font-style: normal;
+    font-weight: 50px;
+    font-size: 14px;
+    font-family: 'Noto Sans KR', sans-serif;
+  
+    line-height: 22px;
+    margin-left: 55px;
+    width: 220px;
+    text-align: left;   /*왼쪽 정렬*/
+    word-break: keep-all;
+    color: #666666;
+  }
+  
+  
+  /*지난 행사들*/
+
+  .s_box{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+  }
+  .s_box img{
+    display: block;
+    margin: 0 auto;
+  }
+
+  .s_title{
+    font-size: 20px;
+    margin-top:20px;
+    text-align: center;
+    
+  }
+
+  .s_des{
+    font-size: 18px;
+    margin-top:10px;
+    text-align: center;
+   
+  }
+
+  .s_link{
+    
+    font-size: 18px;
+    margin-top:10px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+
+  
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
